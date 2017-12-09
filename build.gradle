@@ -1,0 +1,16 @@
+group 'com.gtja.bigdata'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    //导入本地的依赖包
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
