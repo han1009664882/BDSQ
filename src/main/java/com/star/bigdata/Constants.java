@@ -1,4 +1,4 @@
-package com.gtja.bigdata;
+package com.star.bigdata;
 
 /**
  * Created by sh on 2017/5/22.

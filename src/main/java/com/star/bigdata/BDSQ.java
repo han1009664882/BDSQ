@@ -1,4 +1,4 @@
-package com.gtja.bigdata;
+package com.star.bigdata;
 
 /**
  * Created by sh on 2017/5/16.
@@ -6,13 +6,13 @@ package com.gtja.bigdata;
 public class BDSQ implements Cloneable{
 
     private int number; //编号
-    private String cust_flag; //客服：server，访客：customer
+    private String custFlag; //客服：server，访客：customer
     private  String logTime; //日志时间（开始访问时间）
     private String custService;//当次接待客服名称
     private String visitPage; //访问来源
-    private String vistUrl; //初始访问网址
+    private String visitUrl; //初始访问网址
     private String keyword; // 关键词
-    private String searchword; //搜索词
+    private String searchWord; //搜索词
     private String area; //地域
     private String ref; //对话内容里的链接
     private String phone; //电话
@@ -36,12 +36,12 @@ public class BDSQ implements Cloneable{
         this.number = number;
     }
 
-    public String getCust_flag() {
-        return cust_flag;
+    public String getCustFlag() {
+        return custFlag;
     }
 
-    public void setCust_flag(String cust_flag) {
-        this.cust_flag = cust_flag;
+    public void setCustFlag(String custFlag) {
+        this.custFlag = custFlag;
     }
 
     public String getLogTime() {
@@ -68,12 +68,12 @@ public class BDSQ implements Cloneable{
         this.visitPage = visitPage;
     }
 
-    public String getVistUrl() {
-        return vistUrl;
+    public String getVisitUrl() {
+        return visitUrl;
     }
 
-    public void setVistUrl(String vistUrl) {
-        this.vistUrl = vistUrl;
+    public void setVisitUrl(String visitUrl) {
+        this.visitUrl = visitUrl;
     }
 
     public String getKeyword() {
@@ -84,12 +84,12 @@ public class BDSQ implements Cloneable{
         this.keyword = keyword;
     }
 
-    public String getSearchword() {
-        return searchword;
+    public String getSearchWord() {
+        return searchWord;
     }
 
-    public void setSearchword(String searchword) {
-        this.searchword = searchword;
+    public void setSearchWord(String searchWord) {
+        this.searchWord = searchWord;
     }
 
     public String getArea() {
@@ -127,13 +127,13 @@ public class BDSQ implements Cloneable{
     @Override
     public String toString() {
         return  number + '\001' +
-                cust_flag + '\001' +
+                custFlag + '\001' +
                 logTime + '\001' +
                 custService + '\001' +
                 visitPage + '\001' +
-                vistUrl + '\001' +
+                visitUrl + '\001' +
                 keyword + '\001' +
-                searchword + '\001' +
+                searchWord + '\001' +
                 area + '\001' +
                 ref + '\001' +
                 phone + '\001' +

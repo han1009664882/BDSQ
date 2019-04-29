@@ -1,16 +1,26 @@
-package com.gtja.bigdata;
+package com.star.bigdata;
 
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import sun.security.util.Length;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,18 +29,17 @@ import java.util.regex.Pattern;
  */
 public class PreProcBDSQHtml {
 
+    private static Logger logger = Logger.getLogger(PreProcBDSQHtml.class);
     /**
      * 获取HTML内容
-     * @param inputFile
-     * @return
      */
     private String readHtml(File inputFile) throws IOException {
         String text = null;
-        Document document = Jsoup.parse(inputFile,Constants.ENCODING);
+        Document document = Jsoup.parse(inputFile, Constants.ENCODING);
         Elements elements = document.getElementsByTag("script");
         if (elements.size() < 2) {
-            System.err.println("页面无记录");
-            return  "";
+            logger.error("页面无记录");
+            return "";
         } else {
             text = elements.get(1).data();
             return text;
@@ -39,6 +48,7 @@ public class PreProcBDSQHtml {
 
     /**
      * 解析html内容
+     *
      * @param info
      * @return
      */
@@ -48,16 +58,12 @@ public class PreProcBDSQHtml {
         String preData = sub(splits[4], "DATA=");
         Map<String, BDSQ> historyBDSQMap = parseHistoryData(historyJson);
         Map<String, BDSQ> dataMap = parseData(preData);
-        List<BDSQ> list = buildFinalBdsq(historyBDSQMap,dataMap);
-        return list;
+        return buildFinalBdsq(historyBDSQMap, dataMap);
     }
 
     /**
      * 创建最终的输出对象
-     * @param historyBDSQMap
-     * @param dataMap
-     * @return
-     * @throws CloneNotSupportedException
+     *
      */
     private List<BDSQ> buildFinalBdsq(Map<String, BDSQ> historyBDSQMap, Map<String, BDSQ> dataMap) throws CloneNotSupportedException {
         List<BDSQ> list = new ArrayList<>();
@@ -65,16 +71,16 @@ public class PreProcBDSQHtml {
         for (Map.Entry<String, BDSQ> entry : historyBDSQMap.entrySet()) {
             String bid = entry.getKey();
             bdsq = entry.getValue();
-            for (Map.Entry<String , BDSQ> dataEntry : dataMap.entrySet()) {
+            for (Map.Entry<String, BDSQ> dataEntry : dataMap.entrySet()) {
                 String bid2 = dataEntry.getKey();
                 BDSQ bdsq2 = dataEntry.getValue();
                 if (bid.equals(bid2)) {
                     bdsq.setNumber(bdsq2.getNumber());
                     bdsq.setLogTime(bdsq2.getLogTime());
                     bdsq.setCustService(bdsq2.getCustService());
-                    bdsq.setVistUrl(bdsq2.getVistUrl());
+                    bdsq.setVisitUrl(bdsq2.getVisitUrl());
                     bdsq.setKeyword(bdsq2.getKeyword());
-                    bdsq.setSearchword(bdsq2.getSearchword());
+                    bdsq.setSearchWord(bdsq2.getSearchWord());
                     bdsq.setArea(bdsq2.getArea());
                 }
             }
@@ -102,10 +108,8 @@ public class PreProcBDSQHtml {
 
     /**
      * 解析Data
-     * @param dataJson
-     * @return
      */
-    private Map<String,BDSQ> parseData(String dataJson) {
+    private Map<String, BDSQ> parseData(String dataJson) {
         JSONArray jsonArray = new JSONArray(dataJson);
         Map<String, BDSQ> dataMap = new HashMap<>();
         for (int i = 0; i < jsonArray.length(); i++) {
@@ -119,15 +123,13 @@ public class PreProcBDSQHtml {
 
     /**
      * 通过DATA建立BDSQ
-     * @param json
-     * @return
      */
     private BDSQ buidBDSQ(JSONObject json) {
         String logTime = "";
         String custService = "";
         String visitUrl = "";
         String keyword = "";
-        String searchword ="";
+        String searchword = "";
         String area = "";
         String bid = "";
         if (json.has(Constants.BID))
@@ -148,9 +150,9 @@ public class PreProcBDSQHtml {
         bdsq.setBid(bid);
         bdsq.setLogTime(logTime);
         bdsq.setCustService(custService);
-        bdsq.setVistUrl(visitUrl);
+        bdsq.setVisitUrl(visitUrl);
         bdsq.setKeyword(keyword);
-        bdsq.setSearchword(searchword);
+        bdsq.setSearchWord(searchword);
         bdsq.setArea(area);
 
         return bdsq;
@@ -158,10 +160,8 @@ public class PreProcBDSQHtml {
 
     /**
      * 解析历史数据
-     * @param str
-     * @return
      */
-    private Map<String,BDSQ> parseHistoryData(String str) {
+    private Map<String, BDSQ> parseHistoryData(String str) {
         //[{"historyLog":[{msg,independCommunication...}],"bid":136},....]
         JSONArray jsonArray = new JSONArray(str);
         String bid = "";
@@ -173,7 +173,7 @@ public class PreProcBDSQHtml {
             if (jsonArray2.length() <= 12) {
                 continue;
             }
-            if (jsonObject.has(Constants.BID)){
+            if (jsonObject.has(Constants.BID)) {
                 bid = jsonObject.getString(Constants.BID);
             }
             BDSQ bdsq = extractFromHistory(jsonArray2);
@@ -186,8 +186,6 @@ public class PreProcBDSQHtml {
 
     /**
      * 从历史记录提取BDSQ信息
-     * @param jsonArray
-     * @return
      */
     private BDSQ extractFromHistory(JSONArray jsonArray) {
         String custSerever = "";
@@ -198,7 +196,7 @@ public class PreProcBDSQHtml {
         String remark = "";
 
         BDSQ bdsq = null;
-        StringBuilder msg = new StringBuilder();
+//        StringBuilder msg = new StringBuilder();
         for (int j = 0; j < jsonArray.length(); j++) {
             JSONObject jsonObject = jsonArray.getJSONObject(j);
             if (jsonObject.has(Constants.MSG)) {
@@ -218,8 +216,9 @@ public class PreProcBDSQHtml {
                     if (StringUtils.isNotEmpty(url)) {
                         ref = url + Constants._T;
                     }
-                    tmpMsg = document.text();
-                    String msgResult = msg.toString();
+//                    tmpMsg = document.text();
+//                    String msgResult = msg.toString();
+                    String msgResult= document.text();
                     if (msgResult.contains("qq") || msgResult.contains("QQ") || msgResult.contains("微信") ||
                             msgResult.contains("手机") || msgResult.contains("电话") || msgResult.contains("联系方式") ||
                             msgResult.contains("渠道码") || StringUtils.isNotEmpty(number) || StringUtils.isNotEmpty(phone)) {
@@ -227,13 +226,13 @@ public class PreProcBDSQHtml {
                     }
                     if (StringUtils.isNotEmpty(remark) || StringUtils.isNotEmpty(ref) || StringUtils.isNotEmpty(phone)) {
 
-                        if (jsonObject.has(Constants.SENDER_NAME) && jsonObject.get(Constants.SENDER_NAME)!=null) {
+                        if (jsonObject.has(Constants.SENDER_NAME) && jsonObject.get(Constants.SENDER_NAME) != null) {
                             String senderNameTmp = jsonObject.getString(Constants.SENDER_NAME);
                             if (senderNameTmp.equals(Constants.CUSTOMER)) {
                                 cust_flag = Constants.CUST_FLAG_CUSTOMER;
                             } else {
                                 cust_flag = Constants.CUST_FLAG_SERVER;
-                                if (StringUtils.isNotEmpty(senderNameTmp)){
+                                if (StringUtils.isNotEmpty(senderNameTmp)) {
                                     custSerever = senderNameTmp;
                                 }
                             }
@@ -241,7 +240,7 @@ public class PreProcBDSQHtml {
                         bdsq = new BDSQ();
                         bdsq.setCustService(custSerever);
                         bdsq.setVisitPage(visitPage);
-                        bdsq.setCust_flag(cust_flag);
+                        bdsq.setCustFlag(cust_flag);
                         bdsq.setRef(ref);
                         bdsq.setPhone(phone);
                         bdsq.setRemark(remark);
@@ -254,19 +253,17 @@ public class PreProcBDSQHtml {
 
     /**
      * 匹配手机号
-     * @param str
-     * @return
      */
     private String matchPhone(String str) {
         StringBuilder phone_tmp = new StringBuilder();
         String regExp = "^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(18[0,9]))\\d{8}$";
         Pattern p = Pattern.compile(regExp);
         for (int i = 0; i < str.length(); i++) {
-            if (str.substring(i, i+1).contains("1")) {
-                String tmp = str.substring(i,i+11);
+            if (str.substring(i, i + 1).contains("1")) {
+                String tmp = str.substring(i, i + 11);
                 Matcher m = p.matcher(tmp);
                 if (m.find() && StringUtils.isNotEmpty(tmp)) {
-                    phone_tmp.append(tmp + Constants._T);
+                    phone_tmp.append(tmp).append(Constants._T);
                 }
             }
         }
@@ -275,18 +272,16 @@ public class PreProcBDSQHtml {
 
     /**
      * 匹配6位渠道码
-     * @param str
-     * @return
      */
     private String matchNumber(String str) {
         StringBuilder tmp = new StringBuilder();
         String regix = "\\d{6}";
         Pattern pattern = Pattern.compile(regix);
         for (int i = 0; i < str.length(); i++) {
-            String s = str.substring(i, i+6);
+            String s = str.substring(i, i + 6);
             Matcher matcher = pattern.matcher(s);
             if (matcher.find()) {
-                tmp.append(s + Constants._T);
+                tmp.append(s).append(Constants._T);
             }
         }
         return tmp.toString();
@@ -294,8 +289,9 @@ public class PreProcBDSQHtml {
 
     /**
      * 截取字符串
+     *
      * @param source 原始字符串
-     * @param str 确定开始未知的内容
+     * @param str    确定开始未知的内容
      * @return 截取结果
      */
     private String sub(String source, String str) {
@@ -305,9 +301,10 @@ public class PreProcBDSQHtml {
 
     /**
      * 递归获取文件夹下的所有文件名
-     * @param path 文件夹路径
-     * @param dirName   目录路径
-     * @param fileName  文件路径
+     *
+     * @param path     文件夹路径
+     * @param dirName  目录路径
+     * @param fileName 文件路径
      */
     private void getFileList(String path, List<String> dirName, List<File> fileName) {
         File file = new File(path);
@@ -329,33 +326,21 @@ public class PreProcBDSQHtml {
 
     private void output(String inputFile, String outputFile) {
         File html_out = new File(outputFile);
-        BufferedWriter writer= null;
-        try {
-            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(html_out.getAbsolutePath(),true),Constants.ENCODING));
+        try (OutputStream os = new FileOutputStream(html_out.getAbsolutePath(), true);
+             Writer osWriter = new OutputStreamWriter(os, Constants.ENCODING);
+             BufferedWriter writer = new BufferedWriter(osWriter)) {
             List<File> list = new ArrayList<>();
-            getFileList(inputFile,new ArrayList<>(),list);
+            getFileList(inputFile, new ArrayList<>(), list);
             for (File f : list) {
                 String htmlContent = readHtml(f);
                 List<BDSQ> bdsqs = parseHtml(htmlContent);
                 for (BDSQ bdsq : bdsqs) {
-                    writer.write(bdsq.toString(),0,bdsq.toString().length());
+                    writer.write(bdsq.toString(), 0, bdsq.toString().length());
                     writer.flush();
                 }
             }
-        } catch (FileNotFoundException e) {
+        } catch (IOException | CloneNotSupportedException e) {
             e.printStackTrace();
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                writer.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
     }
 
