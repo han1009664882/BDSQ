@@ -2,21 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68c2ef9-49a3-4c6b-a7d2-3fd5c07fa013" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/gtja/bigdata/BDSQ.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/gtja/bigdata/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/gtja/bigdata/PreProcBDSQHtml.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/gtja/bigdata/Test.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180813.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/BDSQ.iml" afterPath="$PROJECT_DIR$/.idea/modules/BDSQ.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/gtja/bigdata/BDSQ.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/gtja/bigdata/Constants.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/gtja/bigdata/PreProcBDSQHtml.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/gtja/bigdata/Test.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -41,12 +69,6 @@
                 <item name="BDSQ" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="BDSQ" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -56,47 +78,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="build.gradle.bak" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle.bak">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreProcBDSQHtml.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java">
+      <file leaf-file-name="PreProcBDSQHtml.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="338" column="46" lean-forward="false" selection-start-line="338" selection-start-column="46" selection-end-line="338" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="485">
+              <caret line="316" column="31" lean-forward="false" selection-start-line="316" selection-start-column="26" selection-end-line="316" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="351">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BDSQ.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQ.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/BDSQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-              <folding>
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1786#1787#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-405">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,12 +142,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="D:\install\gradle-3.0" />
+        <entry key="$PROJECT_DIR$" value="D:\install\gradle-5.4.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="3.0" />
+        <entry key="$PROJECT_DIR$" value="5.4.1" />
       </map>
     </option>
     <option name="availableProjects">
@@ -159,14 +176,14 @@
           <value>
             <list>
               <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by root project 'BDSQ'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'BDSQ'." />
@@ -174,9 +191,9 @@
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
+                <option name="description" value="Displays the dependent components of components in root project 'BDSQ'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
+                <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'BDSQ'." />
@@ -184,79 +201,14 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'BDSQ'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'BDSQ'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'BDSQ'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
+                <option name="description" value="Generates Gradle wrapper files." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
+                <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'BDSQ'." />
@@ -264,9 +216,8 @@
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
+                <option name="name" value="prepareKotlinBuildScriptModel" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
@@ -274,19 +225,19 @@
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
+                <option name="description" value="Displays the configuration model of root project 'BDSQ'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'BDSQ'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'BDSQ'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -295,8 +246,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2989849048295" />
+        <entry key="$PROJECT_DIR$" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="388597641" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="3450914824" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -318,132 +270,171 @@
               <option name="name" value="BDSQ" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="D:/install/gradle-3.0/src/announce" />
-                  <option value="D:/install/gradle-3.0/src/antlr" />
-                  <option value="D:/install/gradle-3.0/src/base-services" />
-                  <option value="D:/install/gradle-3.0/src/base-services-groovy" />
-                  <option value="D:/install/gradle-3.0/src/build-comparison" />
-                  <option value="D:/install/gradle-3.0/src/build-init" />
-                  <option value="D:/install/gradle-3.0/src/cli" />
-                  <option value="D:/install/gradle-3.0/src/code-quality" />
-                  <option value="D:/install/gradle-3.0/src/core" />
-                  <option value="D:/install/gradle-3.0/src/dependency-management" />
-                  <option value="D:/install/gradle-3.0/src/diagnostics" />
-                  <option value="D:/install/gradle-3.0/src/ear" />
-                  <option value="D:/install/gradle-3.0/src/ide" />
-                  <option value="D:/install/gradle-3.0/src/ide-native" />
-                  <option value="D:/install/gradle-3.0/src/ide-play" />
-                  <option value="D:/install/gradle-3.0/src/installation-beacon" />
-                  <option value="D:/install/gradle-3.0/src/internal-integ-testing" />
-                  <option value="D:/install/gradle-3.0/src/internal-testing" />
-                  <option value="D:/install/gradle-3.0/src/ivy" />
-                  <option value="D:/install/gradle-3.0/src/jacoco" />
-                  <option value="D:/install/gradle-3.0/src/javascript" />
-                  <option value="D:/install/gradle-3.0/src/jetty" />
-                  <option value="D:/install/gradle-3.0/src/jvm-services" />
-                  <option value="D:/install/gradle-3.0/src/language-groovy" />
-                  <option value="D:/install/gradle-3.0/src/language-java" />
-                  <option value="D:/install/gradle-3.0/src/language-jvm" />
-                  <option value="D:/install/gradle-3.0/src/language-native" />
-                  <option value="D:/install/gradle-3.0/src/language-scala" />
-                  <option value="D:/install/gradle-3.0/src/launcher" />
-                  <option value="D:/install/gradle-3.0/src/logging" />
-                  <option value="D:/install/gradle-3.0/src/maven" />
-                  <option value="D:/install/gradle-3.0/src/messaging" />
-                  <option value="D:/install/gradle-3.0/src/model-core" />
-                  <option value="D:/install/gradle-3.0/src/model-groovy" />
-                  <option value="D:/install/gradle-3.0/src/native" />
-                  <option value="D:/install/gradle-3.0/src/open-api" />
-                  <option value="D:/install/gradle-3.0/src/osgi" />
-                  <option value="D:/install/gradle-3.0/src/platform-base" />
-                  <option value="D:/install/gradle-3.0/src/platform-jvm" />
-                  <option value="D:/install/gradle-3.0/src/platform-native" />
-                  <option value="D:/install/gradle-3.0/src/platform-play" />
-                  <option value="D:/install/gradle-3.0/src/plugin-development" />
-                  <option value="D:/install/gradle-3.0/src/plugin-use" />
-                  <option value="D:/install/gradle-3.0/src/plugins" />
-                  <option value="D:/install/gradle-3.0/src/process-services" />
-                  <option value="D:/install/gradle-3.0/src/publish" />
-                  <option value="D:/install/gradle-3.0/src/reporting" />
-                  <option value="D:/install/gradle-3.0/src/resources" />
-                  <option value="D:/install/gradle-3.0/src/resources-http" />
-                  <option value="D:/install/gradle-3.0/src/resources-s3" />
-                  <option value="D:/install/gradle-3.0/src/resources-sftp" />
-                  <option value="D:/install/gradle-3.0/src/scala" />
-                  <option value="D:/install/gradle-3.0/src/signing" />
-                  <option value="D:/install/gradle-3.0/src/test-kit" />
-                  <option value="D:/install/gradle-3.0/src/testing-base" />
-                  <option value="D:/install/gradle-3.0/src/testing-jvm" />
-                  <option value="D:/install/gradle-3.0/src/testing-native" />
-                  <option value="D:/install/gradle-3.0/src/tooling-api" />
-                  <option value="D:/install/gradle-3.0/src/tooling-api-builders" />
-                  <option value="D:/install/gradle-3.0/src/ui" />
-                  <option value="D:/install/gradle-3.0/src/wrapper" />
-                  <option value="D:/install/gradle-3.0/lib/ant-1.9.6.jar" />
-                  <option value="D:/install/gradle-3.0/lib/ant-launcher-1.9.6.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-base-services-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-base-services-groovy-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-cli-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-core-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-docs-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-installation-beacon-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-jvm-services-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-launcher-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-logging-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-messaging-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-model-core-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-model-groovy-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-native-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-open-api-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-process-services-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-resources-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-script-kotlin-0.3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-tooling-api-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-ui-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/gradle-wrapper-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/groovy-all-2.4.7.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-announce-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-antlr-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-build-comparison-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-build-init-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-code-quality-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-dependency-management-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-diagnostics-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-ear-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-ide-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-ide-native-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-ide-play-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-ivy-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-jacoco-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-javascript-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-jetty-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-language-groovy-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-language-java-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-language-jvm-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-language-native-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-language-scala-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-maven-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-osgi-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-platform-base-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-platform-jvm-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-platform-native-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-platform-play-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-plugin-development-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-plugin-use-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-plugins-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-publish-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-reporting-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-resources-http-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-resources-s3-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-resources-sftp-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-scala-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-signing-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-test-kit-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-testing-base-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-testing-jvm-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-testing-native-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/gradle-tooling-api-builders-3.0.jar" />
-                  <option value="D:/install/gradle-3.0/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="D:/install/gradle-5.4.1/src/announce" />
+                  <option value="D:/install/gradle-5.4.1/src/antlr" />
+                  <option value="D:/install/gradle-5.4.1/src/base-services" />
+                  <option value="D:/install/gradle-5.4.1/src/base-services-groovy" />
+                  <option value="D:/install/gradle-5.4.1/src/build-cache" />
+                  <option value="D:/install/gradle-5.4.1/src/build-cache-http" />
+                  <option value="D:/install/gradle-5.4.1/src/build-cache-packaging" />
+                  <option value="D:/install/gradle-5.4.1/src/build-comparison" />
+                  <option value="D:/install/gradle-5.4.1/src/build-init" />
+                  <option value="D:/install/gradle-5.4.1/src/build-option" />
+                  <option value="D:/install/gradle-5.4.1/src/build-profile" />
+                  <option value="D:/install/gradle-5.4.1/src/cli" />
+                  <option value="D:/install/gradle-5.4.1/src/code-quality" />
+                  <option value="D:/install/gradle-5.4.1/src/composite-builds" />
+                  <option value="D:/install/gradle-5.4.1/src/core" />
+                  <option value="D:/install/gradle-5.4.1/src/core-api" />
+                  <option value="D:/install/gradle-5.4.1/src/dependency-management" />
+                  <option value="D:/install/gradle-5.4.1/src/diagnostics" />
+                  <option value="D:/install/gradle-5.4.1/src/docs" />
+                  <option value="D:/install/gradle-5.4.1/src/ear" />
+                  <option value="D:/install/gradle-5.4.1/src/execution" />
+                  <option value="D:/install/gradle-5.4.1/src/files" />
+                  <option value="D:/install/gradle-5.4.1/src/ide" />
+                  <option value="D:/install/gradle-5.4.1/src/ide-native" />
+                  <option value="D:/install/gradle-5.4.1/src/ide-play" />
+                  <option value="D:/install/gradle-5.4.1/src/installation-beacon" />
+                  <option value="D:/install/gradle-5.4.1/src/internal-android-performance-testing" />
+                  <option value="D:/install/gradle-5.4.1/src/internal-integ-testing" />
+                  <option value="D:/install/gradle-5.4.1/src/internal-performance-testing" />
+                  <option value="D:/install/gradle-5.4.1/src/internal-testing" />
+                  <option value="D:/install/gradle-5.4.1/src/ivy" />
+                  <option value="D:/install/gradle-5.4.1/src/jacoco" />
+                  <option value="D:/install/gradle-5.4.1/src/javascript" />
+                  <option value="D:/install/gradle-5.4.1/src/jvm-services" />
+                  <option value="D:/install/gradle-5.4.1/src/kotlin-dsl" />
+                  <option value="D:/install/gradle-5.4.1/src/kotlin-dsl-plugins" />
+                  <option value="D:/install/gradle-5.4.1/src/kotlin-dsl-provider-plugins" />
+                  <option value="D:/install/gradle-5.4.1/src/kotlin-dsl-test-fixtures" />
+                  <option value="D:/install/gradle-5.4.1/src/kotlin-dsl-tooling-builders" />
+                  <option value="D:/install/gradle-5.4.1/src/kotlin-dsl-tooling-models" />
+                  <option value="D:/install/gradle-5.4.1/src/language-groovy" />
+                  <option value="D:/install/gradle-5.4.1/src/language-java" />
+                  <option value="D:/install/gradle-5.4.1/src/language-jvm" />
+                  <option value="D:/install/gradle-5.4.1/src/language-native" />
+                  <option value="D:/install/gradle-5.4.1/src/language-scala" />
+                  <option value="D:/install/gradle-5.4.1/src/launcher" />
+                  <option value="D:/install/gradle-5.4.1/src/logging" />
+                  <option value="D:/install/gradle-5.4.1/src/maven" />
+                  <option value="D:/install/gradle-5.4.1/src/messaging" />
+                  <option value="D:/install/gradle-5.4.1/src/model-core" />
+                  <option value="D:/install/gradle-5.4.1/src/model-groovy" />
+                  <option value="D:/install/gradle-5.4.1/src/native" />
+                  <option value="D:/install/gradle-5.4.1/src/osgi" />
+                  <option value="D:/install/gradle-5.4.1/src/persistent-cache" />
+                  <option value="D:/install/gradle-5.4.1/src/platform-base" />
+                  <option value="D:/install/gradle-5.4.1/src/platform-jvm" />
+                  <option value="D:/install/gradle-5.4.1/src/platform-native" />
+                  <option value="D:/install/gradle-5.4.1/src/platform-play" />
+                  <option value="D:/install/gradle-5.4.1/src/plugin-development" />
+                  <option value="D:/install/gradle-5.4.1/src/plugin-use" />
+                  <option value="D:/install/gradle-5.4.1/src/plugins" />
+                  <option value="D:/install/gradle-5.4.1/src/process-services" />
+                  <option value="D:/install/gradle-5.4.1/src/publish" />
+                  <option value="D:/install/gradle-5.4.1/src/reporting" />
+                  <option value="D:/install/gradle-5.4.1/src/resources" />
+                  <option value="D:/install/gradle-5.4.1/src/resources-gcs" />
+                  <option value="D:/install/gradle-5.4.1/src/resources-http" />
+                  <option value="D:/install/gradle-5.4.1/src/resources-s3" />
+                  <option value="D:/install/gradle-5.4.1/src/resources-sftp" />
+                  <option value="D:/install/gradle-5.4.1/src/scala" />
+                  <option value="D:/install/gradle-5.4.1/src/signing" />
+                  <option value="D:/install/gradle-5.4.1/src/snapshots" />
+                  <option value="D:/install/gradle-5.4.1/src/test-kit" />
+                  <option value="D:/install/gradle-5.4.1/src/testing-base" />
+                  <option value="D:/install/gradle-5.4.1/src/testing-junit-platform" />
+                  <option value="D:/install/gradle-5.4.1/src/testing-jvm" />
+                  <option value="D:/install/gradle-5.4.1/src/testing-native" />
+                  <option value="D:/install/gradle-5.4.1/src/tooling-api" />
+                  <option value="D:/install/gradle-5.4.1/src/tooling-api-builders" />
+                  <option value="D:/install/gradle-5.4.1/src/tooling-native" />
+                  <option value="D:/install/gradle-5.4.1/src/version-control" />
+                  <option value="D:/install/gradle-5.4.1/src/workers" />
+                  <option value="D:/install/gradle-5.4.1/src/wrapper" />
+                  <option value="D:/install/gradle-5.4.1/lib/ant-1.9.13.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/ant-launcher-1.9.13.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-api-metadata-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-base-services-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-base-services-groovy-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-build-cache-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-build-cache-packaging-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-build-option-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-cli-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-core-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-core-api-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-docs-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-execution-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-files-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-installation-beacon-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-jvm-services-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-kotlin-dsl-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-kotlin-dsl-tooling-models-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-launcher-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-logging-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-messaging-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-model-core-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-model-groovy-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-native-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-persistent-cache-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-process-services-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-resources-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-runtime-api-info-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-snapshots-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-tooling-api-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/gradle-wrapper-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-announce-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-antlr-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-build-cache-http-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-build-comparison-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-build-init-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-build-profile-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-code-quality-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-composite-builds-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-dependency-management-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-diagnostics-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-ear-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-ide-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-ide-native-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-ide-play-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-ivy-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-jacoco-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-javascript-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-kotlin-dsl-provider-plugins-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-kotlin-dsl-tooling-builders-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-language-groovy-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-language-java-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-language-jvm-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-language-native-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-language-scala-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-maven-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-osgi-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-platform-base-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-platform-jvm-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-platform-native-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-platform-play-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-plugin-development-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-plugin-use-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-plugins-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-publish-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-reporting-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-resources-gcs-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-resources-http-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-resources-s3-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-resources-sftp-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-scala-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-signing-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-test-kit-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-testing-base-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-testing-junit-platform-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-testing-jvm-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-testing-native-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-tooling-api-builders-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-tooling-native-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-version-control-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/gradle-workers-5.4.1.jar" />
+                  <option value="D:/install/gradle-5.4.1/lib/plugins/ivy-2.3.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -456,16 +447,24 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQModol.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQ.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gtja/bigdata/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gtja/bigdata/Test.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQ.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java" />
       </list>
     </option>
   </component>
@@ -478,15 +477,25 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\m2\repository" />
-        <option name="mavenHome" value="D:/install/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="D:\install\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="mavenHome" value="D:/install/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\install\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bdsq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -504,54 +513,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="BDSQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDSQ" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BDSQ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BDSQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDSQ" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BDSQ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BDSQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDSQ" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BDSQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDSQ" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BDSQ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BDSQ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BDSQ" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -570,7 +567,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreProcBDSQHtml">
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
     <configuration name="PreProcBDSQHtml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -590,13 +594,6 @@
       <module name="BDSQ" />
       <envs />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -609,14 +606,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
       <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -638,12 +627,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -678,6 +661,12 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
@@ -973,22 +962,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BDSQ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1008,6 +981,29 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="BDSQ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.PreProcBDSQHtml" />
@@ -1015,7 +1011,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1512803540742" />
+    <option name="lastUpdateTimestamp" value="1556547337283" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -1040,6 +1036,7 @@
       <workItem from="1508310626950" duration="1254000" />
       <workItem from="1508312154160" duration="1107000" />
       <workItem from="1512803375272" duration="2973000" />
+      <workItem from="1556546252740" duration="3659000" />
     </task>
     <task id="LOCAL-00001" summary="百度商桥HTML解析">
       <created>1512804297167</created>
@@ -1048,42 +1045,51 @@
       <option name="project" value="LOCAL" />
       <updated>1512804297167</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bdsq update">
+      <created>1556549950492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556549950492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26121000" />
+    <option name="totallyTimeSpent" value="29780000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26027396" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28218883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28778625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1095,8 +1101,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="E:/gitRepository" />
+    </ignored-roots>
     <MESSAGE value="百度商桥HTML解析" />
-    <option name="LAST_COMMIT_MESSAGE" value="百度商桥HTML解析" />
+    <MESSAGE value="bdsq update" />
+    <option name="LAST_COMMIT_MESSAGE" value="bdsq update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1107,7 +1117,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/BDSQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="e#885#886#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1519#1520#0" expanded="false" />
+            <element signature="e#1550#1551#0" expanded="false" />
+            <element signature="e#1598#1599#0" expanded="false" />
+            <element signature="e#1638#1639#0" expanded="false" />
+            <element signature="e#1823#1824#0" expanded="false" />
+            <element signature="e#1856#1857#0" expanded="false" />
+            <element signature="e#1908#1909#0" expanded="false" />
+            <element signature="e#1952#1953#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9126">
+          <caret line="338" column="46" lean-forward="false" selection-start-line="338" selection-start-column="46" selection-end-line="338" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1115,28 +1170,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7770">
           <caret line="270" column="13" lean-forward="true" selection-start-line="270" selection-start-column="13" selection-end-line="270" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQ.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/BDSQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="136" column="31" lean-forward="false" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
           <folding>
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1519#1520#0" expanded="false" />
+            <element signature="e#1550#1551#0" expanded="false" />
+            <element signature="e#1598#1599#0" expanded="false" />
+            <element signature="e#1638#1639#0" expanded="false" />
+            <element signature="e#1823#1824#0" expanded="false" />
+            <element signature="e#1856#1857#0" expanded="false" />
+            <element signature="e#1908#1909#0" expanded="false" />
+            <element signature="e#1952#1953#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
@@ -1144,7 +1207,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1152,7 +1215,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -1160,28 +1223,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQ.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/BDSQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2520">
           <caret line="136" column="31" lean-forward="false" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
           <folding>
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1519#1520#0" expanded="false" />
+            <element signature="e#1550#1551#0" expanded="false" />
+            <element signature="e#1598#1599#0" expanded="false" />
+            <element signature="e#1638#1639#0" expanded="false" />
+            <element signature="e#1823#1824#0" expanded="false" />
+            <element signature="e#1856#1857#0" expanded="false" />
+            <element signature="e#1908#1909#0" expanded="false" />
+            <element signature="e#1952#1953#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7770">
           <caret line="259" column="43" lean-forward="true" selection-start-line="259" selection-start-column="43" selection-end-line="259" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1189,17 +1260,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10800">
           <caret line="360" column="0" lean-forward="false" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1207,17 +1276,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10800">
           <caret line="360" column="0" lean-forward="true" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1239,24 +1306,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQ.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/BDSQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3840">
           <caret line="128" column="32" lean-forward="true" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1278,20 +1343,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQ.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/BDSQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2400">
           <caret line="128" column="32" lean-forward="true" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,50 +1380,318 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/Constants.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle.bak">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="783">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="jar://D:/install/Java/jdk1.8.0_102/src.zip!/java/io/OutputStreamWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="134">
+          <caret line="93" column="11" lean-forward="false" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/BDSQ.java">
+    <entry file="jar://D:/install/Java/jdk1.8.0_102/src.zip!/java/io/BufferedWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        <state relative-caret-position="134">
+          <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
           <folding>
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="false" />
+            <element signature="e#2327#2328#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gtja/bigdata/PreProcBDSQHtml.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="338" column="46" lean-forward="false" selection-start-line="338" selection-start-column="46" selection-end-line="338" selection-end-column="46" />
+        <state relative-caret-position="351">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/nodes/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="567" column="18" lean-forward="false" selection-start-line="567" selection-start-column="18" selection-end-line="567" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1556547674803" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1556547674803" expanded="false" signature="139:2043" ph="..." />
+            <marker date="1556547674803" expanded="false" signature="2429:2440" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="2485:2491" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="2560:2766" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="2811:2822" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="2859:2865" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="2911:3068" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="3107:3118" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="3149:3155" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="3192:3327" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="3356:3367" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="3387:3393" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="3442:3453" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="3476:3482" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="3514:3525" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="3555:3561" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="3591:3602" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="3628:3634" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="3663:3674" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="3700:3706" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="3751:3915" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="3937:3948" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="3964:3970" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="4000:4011" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="4037:4043" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="4067:4078" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="4123:4129" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="4199:4277" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="4348:4437" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="4479:4490" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="4525:4531" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="4566:4577" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="4609:4615" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="4647:4763" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="4837:5041" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="5078:5089" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="5141:5147" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="5179:5190" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="5236:5242" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="5290:5866" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="5895:5974" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="6014:6373" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="6413:6772" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="6817:6828" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="6867:6873" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="6922:6933" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="6977:6983" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="7023:7034" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="7078:7084" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="7128:7139" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="7192:7198" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="7243:7467" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="7513:7609" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="7655:7764" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="7848:8360" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="8425:8805" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="8856:8993" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="9045:9183" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="9228:9364" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="9410:9547" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="9588:9798" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="9840:10053" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="10093:10104" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="10139:10145" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="10183:10194" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="10229:10235" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="10274:10285" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="10319:10325" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="10362:10373" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="10407:10413" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="10442:10503" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="10541:10552" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="10585:10591" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="10625:11514" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="11554:12073" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="12115:12469" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="12515:12851" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="12894:13039" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="13078:13182" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="13224:13387" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="13478:13650" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="13705:13882" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="13929:14102" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="14161:14268" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="14325:14450" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="14521:14678" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="14754:14837" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="14916:15002" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="15092:15189" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="15277:15372" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="15458:15551" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="15638:15731" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="15815:16125" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="16184:16195" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="16252:16258" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="16321:16397" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="16454:16465" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="16520:16526" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="16593:16670" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="16740:16820" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="16882:16893" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="16946:16952" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="17012:17305" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="17371:17443" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="17506:17802" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="17840:17851" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="17901:17907" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="17934:19064" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="18042:19010" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="18095:18620" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="18673:19000" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="19096:19579" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="19204:19532" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="19257:19454" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="19507:19522" ph="{}" />
+            <marker date="1556547674803" expanded="true" signature="19609:19727" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="19775:20201" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="20288:20596" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="20681:20821" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="20872:21248" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="21287:21453" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="21484:22042" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="22069:22989" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="23020:23031" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="23064:23070" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="23108:23308" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="23364:23619" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="23667:24926" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="24974:25154" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="25205:25388" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="25439:25733" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="25758:25769" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="25845:25851" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="25890:26064" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="26157:27031" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="27124:27569" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="27596:27787" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="27832:28013" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="28070:28283" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="28322:28399" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="28429:28440" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="28464:28470" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="28498:28509" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="28539:28545" ph=" }" />
+            <marker date="1556547674803" expanded="false" signature="28580:28591" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="28651:28657" ph=" }" />
+            <marker date="1556547674803" expanded="true" signature="28702:29040" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="29121:29394" ph="{...}" />
+            <marker date="1556547674803" expanded="true" signature="29214:29293" ph="{...}" />
+            <marker date="1556547674803" expanded="false" signature="29334:29349" ph=" { " />
+            <marker date="1556547674803" expanded="false" signature="29378:29388" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3-sources.jar!/org/jsoup/nodes/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/PreProcBDSQHtml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="316" column="31" lean-forward="false" selection-start-line="316" selection-start-column="26" selection-end-line="316" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/star/bigdata/BDSQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7.6 (D:\install\Python-2.7.10\python.exe) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BDSQ</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35977012" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.commons:commons-lang3:3.8.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
